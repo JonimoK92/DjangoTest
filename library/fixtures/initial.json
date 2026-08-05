@@ -1,0 +1,135 @@
+[
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "The Man Who Was Thursday",
+      "author": "G. K. Chesterton",
+      "isbn": "9782070360024",
+      "publication_year": 1908
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "isbn": "9782070360574",
+      "publication_year": 1937
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 3,
+    "fields": {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "9782266283038",
+      "publication_year": 1932
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "isbn": "9782070375165",
+      "publication_year": 1945
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "isbn": "9782070360803",
+      "publication_year": 1952
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 6,
+    "fields": {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isbn": "9782070366934",
+      "publication_year": 1953
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 7,
+    "fields": {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isbn": "9782070360022",
+      "publication_year": 1942
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 8,
+    "fields": {
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupery",
+      "isbn": "9782070408504",
+      "publication_year": 1943
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 9,
+    "fields": {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isbn": "9782070413553",
+      "publication_year": 1818
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 10,
+    "fields": {
+      "title": "Around the World in Eighty Days",
+      "author": "Jules Verne",
+      "isbn": "9782253006329",
+      "publication_year": 1873
+    }
+  },
+  {
+    "model": "library.loan",
+    "pk": 1,
+    "fields": {
+      "book": 4,
+      "borrower": "camille.martin@example.com",
+      "loan_date": "2026-06-01",
+      "due_date": "2026-06-15",
+      "return_date": "2026-06-12"
+    }
+  },
+  {
+    "model": "library.loan",
+    "pk": 2,
+    "fields": {
+      "book": 4,
+      "borrower": "alex.dupont@example.com",
+      "loan_date": "2026-07-28",
+      "due_date": "2026-08-11",
+      "return_date": null
+    }
+  },
+  {
+    "model": "library.loan",
+    "pk": 3,
+    "fields": {
+      "book": 8,
+      "borrower": "sofia.leroy@example.com",
+      "loan_date": "2026-07-15",
+      "due_date": "2026-07-29",
+      "return_date": null
+    }
+  }
+]
